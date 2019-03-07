@@ -44,7 +44,7 @@ module.exports = {
     crossOriginLoading: 'anonymous',
     library: 'AarkElectrolysis',
     libraryTarget: 'var',
-    path: production ? path.resolve(__dirname, '..', 'dist') : path.resolve(__dirname, '..', 'build'),
+    path: production ? path.resolve(__dirname, '..', 'docs') : path.resolve(__dirname, '..', 'build'),
     filename: '[hash].[name]'
   },
   entry: {
