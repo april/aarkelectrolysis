@@ -10,13 +10,14 @@ const webpack = require('webpack');
 const production = process.env.NODE_ENV === 'production';
 
 const htmlTemplates = [
+  ['contact.ejs', 'Contact Us'],
+  ['education.ejs', 'Education'],
+  ['index.ejs'],
   ['pricing.ejs', 'Pricing'],
   ['services_electrolysis.ejs', 'Electrolysis'],
   ['services_ionic-detoxification.ejs', 'Ionic Detoxification'],
   ['services_led-light-therapy.ejs', 'LED Light Therapy'],
-  ['services_wellness.ejs', 'Advanced Wellness'],
-  ['contact.ejs', 'Contact Us'],
-  ['index.ejs'],
+  ['services_wellness.ejs', 'Advanced Wellness']
 ];
 
 const htmlTemplatePlugins = htmlTemplates.map(i => {
