@@ -1,5 +1,6 @@
 @import '_bootstrap.scss';
 @import '~bootstrap/scss/bootstrap';
+@import '~ekko-lightbox/dist/ekko-lightbox';
 
 
 // colors
@@ -41,4 +42,10 @@ page {
     width: 100%;
     position: absolute;
   }
+}
+
+
+// education
+.ekko-lightbox .modal-footer {
+  justify-content: flex-start;
 }

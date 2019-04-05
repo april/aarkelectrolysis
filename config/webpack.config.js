@@ -104,7 +104,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(
-      ['build/*/*/*', 'build/*/*', 'build/*'],
+      ['build/*/*/*', 'build/*/*', 'build/*', 'docs/*/*/*', 'docs/*/*', 'docs/*'],
       {
         root: path.resolve(__dirname, '..'),
         verbose: true
